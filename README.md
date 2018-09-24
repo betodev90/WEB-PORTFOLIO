@@ -1,11 +1,12 @@
 # Ejercicio práctico#1: Web Protfolio 
 
-Proyecto web django que permite crear una web básica para llevar un portfolio
+Proyecto web django que permite crear una web básica para llevar un portfolio.
+
 
 ## Sesión #4:
 
     1. Clonar el repositorio, ubicar en un directorio de su máquina local y ejecutar el comando:
-        `git clone `
+        `git clone https://github.com/betodev90/WEB-PORTFOLIO.git` 
     
     2. Revisar el entorno en el directorio `./vscode` modificar las configuraciones de su equipo local, es decir cambiar el "python.pythonPath": '' del settings.json.
         ej: En Windows
