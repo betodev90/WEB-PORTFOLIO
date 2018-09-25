@@ -47,6 +47,8 @@ Proyecto web django que permite crear una web básica para llevar un portfolio.
 ## Sesión #5:
 
     # Verificar el estado del proyecto según lo solicitado en la sesión anterior.
+    Antes de comentar ejecute el comando de git para actualizar el proyecto en su maquina local
+        `git pull`
 
     1. Realizar un cambio en el campo imagen para que sea `null=True`, ejecutar las migracions.
         `python manage.py makemigrations projects`
