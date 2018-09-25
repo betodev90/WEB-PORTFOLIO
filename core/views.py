@@ -9,4 +9,4 @@ def acercade(request):
     return render(request, 'core/about.html')
 
 def contacto(request):
-    return render(request, 'core/contacto.html')
+    return render(request, 'core/contact.html')

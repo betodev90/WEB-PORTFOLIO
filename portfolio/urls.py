@@ -17,14 +17,18 @@ from django.contrib import admin
 from django.urls import path
 
 from core.views import home, acercade, contacto
+from projects.views import lista_proyectos
 
 from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name="home"),
-    path('acerca-de',  acercade),
-    path('contacto', contacto)
+    path('acerca-de',  acercade, name="about"),
+    path('contacto', contacto, name='contact'),
+    # URLS PROJECTS
+    path('proyectos', lista_proyectos, name='list_projects'),
+
 ]
 
 if settings.DEBUG:
