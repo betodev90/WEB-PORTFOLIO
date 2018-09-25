@@ -68,7 +68,7 @@ Proyecto web django que permite crear una web básica para llevar un portfolio.
 
     7. Crear una aplicacion llamada 'blog'.
 
-    8. Crear un `models.Blog` con los siguientes fields (titulo, autor, slug, fecha_creacion, fecha_modificacion, contenido, publicado este campo es un boolean), el campo slug tiene que ser unico.
+    8. Crear un `models.Post` con los siguientes fields (titulo, autor, slug, fecha_creacion, fecha_modificacion, contenido, publicado este campo es un boolean), el campo slug tiene que ser unico.
 
     9. Ejecutar los comandos de migraciones.
 
@@ -86,4 +86,6 @@ Proyecto web django que permite crear una web básica para llevar un portfolio.
         `path('post/<int:pk>/', detalle_post, name='post_detail'),`
 
     16. Revisar capitulo de tests.
+
+    17. Linkear en el nav del base.html la nueva url relacionada a la aplicación Blog. 
     
