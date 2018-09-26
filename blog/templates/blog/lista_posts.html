@@ -1,0 +1,13 @@
+<h1>
+    Lista posts
+</h1>
+
+<ul>
+    {% for post in posts %}
+    <li>
+        <a href="{% url 'post_detail' post.pk %}">
+            {{post}}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

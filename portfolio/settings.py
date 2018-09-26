@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'projects',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -101,18 +102,17 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+DATE_FORMAT = [
+    'N j, Y, P'
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
+LANGUAGE_CODE = 'es'
+TIME_ZONE = 'America/Guayaquil'
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
 
 

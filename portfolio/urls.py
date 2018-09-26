@@ -18,6 +18,7 @@ from django.urls import path
 
 from core.views import home, acercade, contacto
 from projects.views import lista_proyectos
+from blog.views import lista_posts, posts_detalle
 
 from django.conf import settings
 
@@ -28,7 +29,9 @@ urlpatterns = [
     path('contacto', contacto, name='contact'),
     # URLS PROJECTS
     path('proyectos', lista_proyectos, name='list_projects'),
-
+    # URL BLOG
+    path('blog', lista_posts, name='list_posts'),
+    path('blog/<int:id>/', posts_detalle, name='post_detail'),
 ]
 
 if settings.DEBUG:
